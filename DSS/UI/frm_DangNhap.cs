@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace DSS.UI
 {
-    public partial class frm_Main : Form
+    public partial class frm_DangNhap : Form
     {
-        public frm_Main()
+        public frm_DangNhap()
         {
             InitializeComponent();
         }
 
-        private void thiếtKếToolStripMenuItem_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-            frm_DangNhap frm = new frm_DangNhap();
+            frm_ThemMoiThietKe frm = new frm_ThemMoiThietKe();
             frm.Show();
         }
     }
