@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,39 @@ namespace DSS.UI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            List<byte[]> list = new List<byte[]>();
+            list.Add(ImageToByteArray(pictureBox1.Image));
+            list.Add(ImageToByteArray(pictureBox2.Image));
+            list.Add(ImageToByteArray(pictureBox3.Image));
+          var x =  bl.ThemMoiBangVe(int.Parse(txtDai.Text), int.Parse(txtRong.Text),int.Parse(comboBox1.SelectedValue.ToString())
+                ,ConvertInt(txtTang.Text), ConvertInt(txtPhongKhach.Text),ConvertInt(txtPhongNgu.Text), ConvertInt(txtVeSinh.Text),
+                ConvertInt(txtBep.Text),cboTruocSau.SelectedItem.ToString(),list
+                );
+            if (x == true)
+            {
+                this.Close();
+                MessageBox.Show("thành công");
+                frm_ThemMoiThietKe frm = new frm_ThemMoiThietKe();
+                frm.Show();
+            }else
+            {
+                this.Close();
+                MessageBox.Show("thất bại");                
+            }
+        }
 
-            bl.ThemMoiBangVe(int.Parse(txtDai.Text), int.Parse(txtRong.Text));
+        private int ConvertInt(string text)
+        {
+            return int.Parse(text);
+        }
+
+        public byte[] ImageToByteArray(System.Drawing.Image imageIn)
+        {
+            using (var ms = new MemoryStream())
+            {
+                imageIn.Save(ms, imageIn.RawFormat);
+                return ms.ToArray();
+            }
         }
 
         bl_ThemMoi bl;

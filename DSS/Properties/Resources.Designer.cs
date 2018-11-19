@@ -63,9 +63,49 @@ namespace DSS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ban_ve_thiet_ke_kien_truc_dieu_can_biet_truoc_khi_xay_nha_5 {
+            get {
+                object obj = ResourceManager.GetObject("ban_ve_thiet_ke_kien_truc_dieu_can_biet_truoc_khi_xay_nha_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap insertimage {
             get {
                 object obj = ResourceManager.GetObject("insertimage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Mau_thiet_ke_nha_2_tang_3_phong_ngu_dien_tich_100m2_mat_tien_8m_1 {
+            get {
+                object obj = ResourceManager.GetObject("Mau_thiet_ke_nha_2_tang_3_phong_ngu_dien_tich_100m2_mat_tien_8m_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thiet_ke_nha_1_tang_1_tum_dep_1 {
+            get {
+                object obj = ResourceManager.GetObject("Thiet_ke_nha_1_tang_1_tum_dep_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thiet_ke_nha_cap_4_dien_tich_100m2_1 {
+            get {
+                object obj = ResourceManager.GetObject("thiet_ke_nha_cap_4_dien_tich_100m2_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

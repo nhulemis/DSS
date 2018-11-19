@@ -71,26 +71,26 @@
             this.lịchHẹnToolStripMenuItem,
             this.thiếtKếToolStripMenuItem});
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(114, 26);
             this.newToolStripMenuItem.Text = "New";
             // 
             // lịchHẹnToolStripMenuItem
             // 
             this.lịchHẹnToolStripMenuItem.Name = "lịchHẹnToolStripMenuItem";
-            this.lịchHẹnToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.lịchHẹnToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
             this.lịchHẹnToolStripMenuItem.Text = "Lịch Hẹn";
             // 
             // thiếtKếToolStripMenuItem
             // 
             this.thiếtKếToolStripMenuItem.Name = "thiếtKếToolStripMenuItem";
-            this.thiếtKếToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.thiếtKếToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
             this.thiếtKếToolStripMenuItem.Text = "Thiết Kế";
             this.thiếtKếToolStripMenuItem.Click += new System.EventHandler(this.thiếtKếToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(114, 26);
             this.exitToolStripMenuItem.Text = "exit";
             // 
             // queryToolStripMenuItem
@@ -108,6 +108,7 @@
             this.tưVấnToolStripMenuItem.Name = "tưVấnToolStripMenuItem";
             this.tưVấnToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.tưVấnToolStripMenuItem.Text = "Tư vấn";
+            this.tưVấnToolStripMenuItem.Click += new System.EventHandler(this.tưVấnToolStripMenuItem_Click);
             // 
             // báoCáoToolStripMenuItem
             // 

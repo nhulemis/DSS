@@ -22,5 +22,11 @@ namespace DSS.UI
             frm_DangNhap frm = new frm_DangNhap();
             frm.Show();
         }
+
+        private void tưVấnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_TuVan frm = new frm_TuVan();
+            frm.Show();
+        }
     }
 }
