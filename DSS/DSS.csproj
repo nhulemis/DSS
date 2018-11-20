@@ -97,6 +97,18 @@
     <Compile Include="UI\frm_ThemMoiThietKe.Designer.cs">
       <DependentUpon>frm_ThemMoiThietKe.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\frm_ThongTinChiTiet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frm_ThongTinChiTiet.Designer.cs">
+      <DependentUpon>frm_ThongTinChiTiet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frm_ThongTinNguoiDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frm_ThongTinNguoiDung.Designer.cs">
+      <DependentUpon>frm_ThongTinNguoiDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\frm_TuVan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +136,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UI\frm_ThemMoiThietKe.resx">
       <DependentUpon>frm_ThemMoiThietKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frm_ThongTinChiTiet.resx">
+      <DependentUpon>frm_ThongTinChiTiet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frm_ThongTinNguoiDung.resx">
+      <DependentUpon>frm_ThongTinNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\frm_TuVan.resx">
       <DependentUpon>frm_TuVan.cs</DependentUpon>

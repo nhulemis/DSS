@@ -10,5 +10,6 @@ namespace DSS.Common
     class Constants
     {
         public static tbKIENTRUCSU KIENTRUCSU;
+        public static int id;
     }
 }

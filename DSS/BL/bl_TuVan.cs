@@ -31,5 +31,29 @@ namespace DSS.BL
                          select x;
             return result.ToList();
         }
+
+        public List<tbTHIETKE> TruyVan(int id_kieu)
+        {
+
+            var result = from x in db.tbTHIETKEs
+                         where x.id_danhmuc == id_kieu
+                         select x;
+            return result.ToList();
+        }
+
+        public List<tbHINHANHTHIETKE> HinhAnh(int id_thietke)
+        {
+            return db.tbHINHANHTHIETKEs.Where(x => x.id_thietke == id_thietke).ToList();
+        }
+
+        public List<tbCHITIETTHIETKE> ChiTiet(int id_thietket)
+        {
+            return db.tbCHITIETTHIETKEs.Where(x => x.id_thietke == id_thietket).ToList();
+        }
+
+        public List<tbCHIPHI> ChiPhi(int index)
+        {
+            return db.tbCHIPHIs.Where(x => x.id_thietke == index).ToList();
+        }
     }
 }
