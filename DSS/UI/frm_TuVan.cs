@@ -66,7 +66,8 @@ namespace DSS.UI
 
         private void btnChon_Click(object sender, EventArgs e)
         {
-
+            frm_ThongTinNguoiDung frm = new frm_ThongTinNguoiDung();
+            frm.Show();
         }
     }
 }

@@ -16,5 +16,23 @@ namespace DSS.UI
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DA.tbKHACHHANG model = new DA.tbKHACHHANG();
+            model.ho = txtHoTen.Text;
+            model.ten = txtNamSinh.Text;
+            model.sdt = txtSDT.Text;
+            model.diachi = txtDiaChi.Text;
+            BL.bl_KhachHang bl = new BL.bl_KhachHang();
+            Common.Constants.id_KhachHang = bl.ThemKhachHang(model);
+            DA.tbLUACHONTHIETKE luachon = new DA.tbLUACHONTHIETKE();
+            luachon.id_khachhang = Common.Constants.id_KhachHang;
+            luachon.id_thietke = Common.Constants.id;
+            luachon.ngay = DateTime.Now;
+            bl.LuaChonThietKe(luachon);
+            frm_ThongTinChiTiet frm = new frm_ThongTinChiTiet();
+            frm.Show();
+        }
     }
 }

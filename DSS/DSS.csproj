@@ -57,7 +57,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\bl_KhachHang.cs" />
     <Compile Include="BL\bl_ThemMoi.cs" />
+    <Compile Include="BL\bl_ThongTinChiTiet.cs" />
     <Compile Include="BL\bl_TuVan.cs" />
     <Compile Include="Common\Constants.cs" />
     <Compile Include="DA\Model1.cs" />

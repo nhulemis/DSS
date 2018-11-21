@@ -11,5 +11,6 @@ namespace DSS.Common
     {
         public static tbKIENTRUCSU KIENTRUCSU;
         public static int id;
+        public static int id_KhachHang;
     }
 }
