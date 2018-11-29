@@ -74,12 +74,12 @@ namespace DSS.BL
             {
                 double x = (((dai + rong) * 2 * 4 * tang) + ((dai + rong) * 2 * 4 * tang) / 3) / (0.2 * 0.5 * 1000);
                 tbCHIPHI cp = new tbCHIPHI();
-                cp.gach = (int)x+1;
+                cp.gach = (int)x+2;
                 cp.gachlot = (dai * rong * tang);
                 cp.xi = (((dai + rong) * 2 * 4 * tang) + ((dai + rong) * 2 * 4 * tang) / 3) / 4;
                 cp.son = ((dai + rong) * 2 * 4 * tang) / 20;
                 cp.id_thietke = id;
-                cp.uoctinhchiphi = cp.gach * 2.5 + cp.gachlot * 0.4 + cp.son +50*tang+cp.xi/10*0.5;
+                cp.uoctinhchiphi = cp.gach * 2.5 + cp.gachlot * 0.5 + cp.son +60*tang+cp.xi/10*0.6;
                 db.tbCHIPHIs.Add(cp);
                 db.SaveChanges();
                 return true;

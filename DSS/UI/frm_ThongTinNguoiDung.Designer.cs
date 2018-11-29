@@ -157,7 +157,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(156, 35);
             this.button1.TabIndex = 3;
-            this.button1.Text = "next";
+            this.button1.Text = "Tư Vấn";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -167,18 +167,19 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(156, 35);
             this.button2.TabIndex = 3;
-            this.button2.Text = "cancel";
+            this.button2.Text = "Lịch hẹn";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(55, 28);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(164, 20);
+            this.label5.Size = new System.Drawing.Size(330, 38);
             this.label5.TabIndex = 1;
-            this.label5.Text = "Thông tin người dùng";
+            this.label5.Text = "Thông tin khách hàng";
             // 
             // frm_ThongTinNguoiDung
             // 

@@ -33,6 +33,21 @@ namespace DSS.UI
             bl.LuaChonThietKe(luachon);
             frm_ThongTinChiTiet frm = new frm_ThongTinChiTiet();
             frm.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DA.tbKHACHHANG model = new DA.tbKHACHHANG();
+            model.ho = txtHoTen.Text;
+            model.ten = txtNamSinh.Text;
+            model.sdt = txtSDT.Text;
+            model.diachi = txtDiaChi.Text;
+            BL.bl_KhachHang bl = new BL.bl_KhachHang();
+            Common.Constants.id_KhachHang = bl.ThemKhachHang(model);
+            frm_ThemLichHen frm = new frm_ThemLichHen();
+            frm.Show();
+            this.Close();
         }
     }
 }

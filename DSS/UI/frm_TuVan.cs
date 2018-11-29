@@ -23,6 +23,7 @@ namespace DSS.UI
             cboKieu.DataSource = bl1.GetDanhMuc();
             cboKieu.DisplayMember = "ten";
             cboKieu.ValueMember = "id";
+            gv_Result.DataSource = bl.TruyVan();
         }
 
         private void btn_Xem_Click(object sender, EventArgs e)

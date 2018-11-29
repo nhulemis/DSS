@@ -133,4 +133,25 @@
   <data name="thiet_ke_nha_cap_4_dien_tich_100m2_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\thiet-ke-nha-cap-4-dien-tich-100m2-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hanh_trinh_di_toi_giay_phep_xay_dung_qua_loi_mot_sep_doanh_nghiep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hanh-trinh-di-toi-giay-phep-xay-dung-qua-loi-mot-sep-doanh-nghiep.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_58b91512d2191_1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\58b91512d2191_1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mau_hop_dong_thi_cong_xay_dung_cong_trinh_moi_nhat_2018__58997" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mau-hop-dong-thi-cong-xay-dung-cong-trinh-moi-nhat-2018--58997.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qt2_650x542" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\qt2-650x542.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thiet_ke_kien_truc_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thiet-ke-kien-truc-4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tu_van_thiet_ke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tu-van-thiet-ke.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -14,8 +14,10 @@ namespace DSS.UI
     {
         public frm_Main()
         {
-            InitializeComponent();
+            InitializeComponent();          
         }
+
+       
 
         private void thiếtKếToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -27,6 +29,37 @@ namespace DSS.UI
         {
             frm_TuVan frm = new frm_TuVan();
             frm.Show();
+        }
+
+        private void báoCáoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lịchHẹnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           // this.Close();
+            frm_ThongTinNguoiDung frm = new frm_ThongTinNguoiDung();
+            this.Hide();
+            frm.Show();
+           
+        }
+
+        private void frm_Main_Load(object sender, EventArgs e)
+        {
+            groupBox_LichHen.Text = "Lịch hẹn ngày: " + DateTime.Now.ToString("dd/MM/yyyy");
+            BL.bl_ThemLichHen bl = new BL.bl_ThemLichHen();
+            gv_LichHen.DataSource = bl.GetLichHen(DateTime.Now.Date);
+        }
+        public void load()
+        {
+            //groupBox_LichHen.Text = "Lịch hẹn ngày: " + DateTime.Now.ToString("dd/MM/yyyy");
+            this.Close();
+            BL.bl_ThemLichHen bl = new BL.bl_ThemLichHen();
+            gv_LichHen.DataSource = bl.GetLichHen(DateTime.Now.Date);
+            frm_Main m = new frm_Main();
+            m.Show();
+           // this.Show();
         }
     }
 }
